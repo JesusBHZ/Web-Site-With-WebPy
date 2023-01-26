@@ -1,0 +1,17 @@
+$def with (datos)
+    <table>
+        <thead>
+            <th>No.</th>
+            <th>Nombre</th>
+        </thead>
+        <tbody>
+            $for i in datos:
+            <tr style="padding-left: 20px;">
+                <td>
+                    $i[0]
+                </td>
+                <td>$i[1]</td>
+                
+            </tr>
+        </tbody>
+    </table>
